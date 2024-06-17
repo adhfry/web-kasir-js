@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", async function() {
             // Open database and add dummy data if it doesn't exist
             openDatabase().then(() => {
                 localStorage.setItem("firstVisit", "true");
-                alert("Database has been initialized with dummy data.");
+                alert("Database has been initialized with dummy data.\n menggunakan indexedDB sebagai penyimpanan data client\n  Nama : Ahda Firly Barori\n  NIM : 2302310186\n  Kelas : Informatika D 23\n  Dosen Pengampu : Najibnasich");
             }).catch(error => {
                 console.error("Error initializing database:", error);
             });
